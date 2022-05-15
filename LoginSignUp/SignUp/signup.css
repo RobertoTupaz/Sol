@@ -1,0 +1,216 @@
+#signUpDiv{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signUpDiv2{
+    z-index: 2;
+    height: 75%;
+    width: 40%;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    position: absolute;
+    top: 20%;
+}
+
+#signUpDiv3{
+    z-index: 1;
+    height: 75%;
+    width: 40%;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    position: absolute;
+    top: 20%;
+}
+
+#signUpDiv4{
+    z-index: 3;
+    height: 75%;
+    width: 40%;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    position: absolute;
+    top: 20%;
+}
+
+
+#singUpLabel{
+    height: 10%;
+    width: 100%;
+    color: #30E9CE;
+    padding: 20px;
+}
+
+#nameDiv{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+input.fullName{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+}
+
+.passClass{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    z-index: 10;
+}
+
+#emailNumber{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#emailOrNumber{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    width: 81%;
+}
+
+#emailOrNumberLogin{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    width: 81%;
+}
+
+#passwordLogin{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    width: 81%;
+}
+
+#passLabel label{
+    padding: 10%    ;
+    font-size: small;
+}
+
+.spaceDiv{
+    height: 30px;
+    width: 100%;
+}
+
+#nextDiv{
+    height: 30px;
+    width: 100%;
+}
+
+#loginDiv{
+    height: 100%;
+    width: 50%;
+}
+
+#buttonDiv{
+    height: 100%;
+    width: 41%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.buttomThings{
+    float: left;
+}
+
+#gotoLogin{
+    padding: 0px 50px;
+    cursor: pointer;
+}
+
+button#nextButton{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    height: 25px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#nextButton:hover{
+    background: lightgrey;
+}
+
+button#loginButton{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    padding: 9px;
+    cursor: pointer;
+    float: right;
+}
+
+#loginButton:hover{
+    background: lightgrey;
+}
+
+#birthDateLabel{
+    padding: 0px 50px;
+}
+
+#genderLabel{
+    padding: 0px 60px;
+}
+
+#numberDiv{
+    padding: 0px 60px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#doneDivContainer{
+    width: 90%;
+}
+
+button#doneButton{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    padding: 9px;
+    width: 20%;
+    cursor: pointer;
+    float: right;
+}
+
+#doneButton:hover{
+    background: lightgrey;
+}
+
+#hiddenOne{
+    position: absolute;
+    top: 278px;
+    left: 48px;
+    opacity: 0;
+}
+
+#numberDiv2 {
+    width: 110px;
+}
+
+#ageDiv2{
+    width: 50px;
+    padding: 0px 60px;
+}
+
+#passwordChecker{
+    height: 60px;
+    width: 50%;
+}
+
+#passwordChecker2{
+    height: 100%;
+    width: 83%;
+    float: right;
+}
+
+#passwordNeed{
+    font-size: 13px;
+}

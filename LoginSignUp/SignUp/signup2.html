@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>RTJ | Online Shopping</title>
+
+	<link rel="stylesheet" type="text/css" href="leftHead.css">
+	<link rel="stylesheet" type="text/css" href="/rightHead.css">
+	<link rel="stylesheet" type="text/css" href="signup.css">
+	<script src="https://kit.fontawesome.com/7a357ec0be.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body id="signup2">
+
+	<div id="box1">
+		<div id="centeredHead"> 
+			<div id="leftHead" class="Header">
+				<div id="leftHeadTop">
+					<img id="logo" src="/Logos/homeLogo.png" alt="avatar">
+					<h1><label id="shopName">RTJ OL Shop</label></h1>
+                    <h1 id="signUpText">&nbsp Sign Up</h1>
+				</div>
+			</div>
+        </div>
+    </div>
+    
+    <div id="signUpDiv">
+        <div id="signUpDiv3">
+            <div id="singUpLabel">
+                <h1>Sign Up</h1>
+            </div>
+            <div class="spaceDiv"></div>
+            <div id="birthDate">
+                <form>
+                    <label id="birthDateLabel">Birth Date</label>
+                    <input id="birtdayDate" class="fullName" type="date" onchange="userAge = setAge();">
+                </form>
+            </div>
+            <div class="spaceDiv"></div>
+            <div id="ageDiv">
+                <div>
+                    <div class="buttomThings" id="ageDiv2">
+                        <label>Age </label>
+                    </div>
+                    <div class="buttomThings">
+                        <input id="ageValue" type="text" maxlength="2" size="2" disabled/>
+                    </div>
+                </div>
+            </div>
+            <div class="spaceDiv"></div>
+            <div class="spaceDiv"></div>
+            <div id="numberDiv">
+                <div class="buttomThings" id="numberDiv2">
+                    <label>Number</label>
+                </div>
+                <div class="buttomThings">
+                    <label id="numberLabel">+63</label>
+                    <input id="numberInput" type="text" size="12" onkeypress="return getNumber(event)"/>
+                </div>
+            </div>
+            <div class="spaceDiv"></div>
+            <div class="spaceDiv"></div>
+            <div id="gender">
+                <form>
+                <label id="genderLabel">Gender</label>
+                <label>Male</label>
+                <input type="radio" id="male" value="male" name="theGender" onchange="genderSetToMale()"> &nbsp&nbsp&nbsp
+                <label>Female</label>
+                <input type="radio" id="female" value="female" name="theGender" onchange="genderSetToFemale()">
+            </form>
+            </div>
+            <div class="spaceDiv"></div>
+            <div id="doneDivContainer">
+                <div id="nextDiv">
+                    <a id="doneButton2"><button type="button" id="doneButton">Done</button></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="/LoginSignUp/loginSignUpScript.js"></script>
+</body>
+</html>
